@@ -167,14 +167,20 @@ body {
 }
 /* =======end portfolio section======= */
 /* ======button ========*/
-.button_primary,
+.button_primary {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+}
 .button_secondary,
 .button_current {
   font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 0.06em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
 }
 .button_primary {
   border: 0;
